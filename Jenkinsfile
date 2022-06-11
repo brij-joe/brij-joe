@@ -2,9 +2,14 @@ pipeline {
     agent any
 
     stages {
+		stage('pre-requisites') {
+            steps {
+                checkout scm
+            }
+        }
         stage('Build') {
             steps {
-                echo 'Building..'
+                gradele build
             }
         }
         stage('Test') {
