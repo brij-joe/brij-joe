@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                gradele build
+                ./gradlew build
             }
         }
         stage('Test') {
