@@ -3,7 +3,7 @@ plugins {
 }
 sourceCompatibility = 11
 group = 'org.example'
-version = '1.0'
+version = "${BUILD_VERSION}"
 jar.baseName = "${ARTIFACT_NAME}"
 
 repositories {
