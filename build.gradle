@@ -1,11 +1,10 @@
 plugins {
     id 'java'
 }
-ext.systemProperties= System.properties
 sourceCompatibility = 11
 group 'org.example'
-version = "${systemProperties.BUILD_VERSION}"
-jar.baseName = "${systemProperties.ARTIFACT_NAME}"
+version = "${BUILD_VERSION}"
+jar.baseName = "${ARTIFACT_NAME}"
 
 repositories {
     mavenCentral()
