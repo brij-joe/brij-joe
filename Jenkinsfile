@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Build & Test') {
 		stages {
-			stage {	
+			stage() {	
             			steps {
                 			bat "gradlew.bat build -PARTIFACT_NAME=${ARTIFACT_NAME} -PBUILD_VERSION=${BUILD_VERSION}"
             			}
         		}
-        		stage {
+        		stage() {
             			steps {
 					echo 'Unit Test'
             			}
