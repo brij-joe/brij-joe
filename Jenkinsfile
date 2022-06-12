@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                gradlew build
+                 echo 'Testing..'
             }
         }
         stage('Test') {
