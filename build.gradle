@@ -3,8 +3,8 @@ plugins {
 }
 sourceCompatibility = 11
 group 'org.example'
-version = "${BUILD_VERSION}"
-jar.baseName = "${ARTIFACT_NAME}"
+version = 1.0
+jar.baseName = Demo3
 
 repositories {
     mavenCentral()
