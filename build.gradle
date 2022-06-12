@@ -2,9 +2,9 @@ plugins {
     id 'java'
 }
 sourceCompatibility = 11
-group 'org.example'
-version '1.0'
-jar.baseName 'Demo3'
+group = 'org.example'
+version = '1.0'
+jar.baseName = 'Demo3'
 
 repositories {
     mavenCentral()
