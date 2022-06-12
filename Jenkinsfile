@@ -4,19 +4,19 @@ pipeline {
     stages {
 	stage('Info'){
 		steps {
-			echo "${BUILD_NUMBER}"
-			echo "${BUILD_ID}"
-			echo "${BUILD_URL}"
-			echo "${NODE_NAME}"
-			echo "${JOB_NAME}"
-			echo "${BUILD_TAG}"
-			echo "${JENKINS_URL}"
-			echo "${EXECUTOR_NUMBER}"
-			echo "${JAVA_HOME}"
-			echo "${WORKSPACE}"
-			echo "${GIT_COMMIT}"
-			echo "${GIT_URL}"
-			echo "${GIT_BRANCH}"
+			echo "BUILD_NUMBER=${BUILD_NUMBER}"
+			echo "BUILD_ID=${BUILD_ID}"
+			echo "BUILD_URL=${BUILD_URL}"
+			echo "NODE_NAME=${NODE_NAME}"
+			echo "JOB_NAME=${JOB_NAME}"
+			echo "BUILD_TAG=${BUILD_TAG}"
+			echo "JENKINS_URL=${JENKINS_URL}"
+			echo "EXECUTOR_NUMBER=${EXECUTOR_NUMBER}"
+			echo "JAVA_HOME=${JAVA_HOME}"
+			echo "WORKSPACE=${WORKSPACE}"
+			echo "GIT_COMMIT=${GIT_COMMIT}"
+			echo "GIT_URL=${GIT_URL}"
+			echo "GIT_BRANCH=${GIT_BRANCH}"
 		}
 	}
 	stage('SCM Checkout') {
