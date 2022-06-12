@@ -4,8 +4,7 @@ plugins {
 ext.systemProperties= System.properties
 sourceCompatibility = 11
 group 'org.example'
-version = '1.0'
-// Jar file name
+version = "${systemProperties.BUILD_VERSION}"
 jar.baseName = "${systemProperties.ARTIFACT_NAME}"
 
 repositories {
