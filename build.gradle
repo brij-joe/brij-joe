@@ -1,10 +1,12 @@
 plugins {
     id 'java'
 }
-
+ext.systemProperties= System.properties
+sourceCompatibility = 11
 group 'org.example'
-version '1.0-SNAPSHOT'
-jar.baseName = "${ARTIFACT_NAME}"
+version = '1.0'
+// Jar file name
+jar.baseName = '${systemProperties.ARTIFACT_NAME}'
 
 repositories {
     mavenCentral()
