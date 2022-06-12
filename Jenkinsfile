@@ -39,5 +39,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+	stage('Integration Test') {
+            steps {
+                echo 'Integration Test....'
+            }
+        }
     }
 }
