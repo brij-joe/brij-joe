@@ -7,19 +7,15 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Build & Test') {
-		
-				
-            			steps {
-                			bat "gradlew.bat build -PARTIFACT_NAME=${ARTIFACT_NAME} -PBUILD_VERSION=${BUILD_VERSION}"
-            			}
-        		
-        		
-            			steps {
-					echo 'Unit Test'
-            			}
-        		
-		
+        stage('Build') {
+		steps {
+			bat "gradlew.bat build -PARTIFACT_NAME=${ARTIFACT_NAME} -PBUILD_VERSION=${BUILD_VERSION}"
+            	}
+	}
+	stage('Unit Test'){
+            	steps {
+			echo 'Unit Test'
+            	}
 	}
         stage('Deploy') {
             steps {
