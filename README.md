@@ -1,8 +1,12 @@
-- 👋 Hi, I’m @brij-joe
-- 👀 I’m interested in Micro Services development usingh dockers.
-- 🌱 I’m currently learning Apache Camel and Spring-boot
-- 💞️ I’m looking to collaborate on open projects in Java
-- 📫 How to reach me brij_joe@yahoo.com
+👋 Hi, I'm Brijesh.
+
+👀 I'm interested in building GenAI and LLM-based agent applications and services using Python and Docker.
+
+🌱 I have experience learning and working with Big Data and Cloud tools and technologies, and I'm currently expanding my skills in AI-driven application development.
+
+💞️ I'm open to collaborating on open-source projects, especially those based on Python or Java.
+
+📫 How to reach me: brij_joe@yahoo.com
 
 <!---
 brij-joe/brij-joe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
