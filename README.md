@@ -1,13 +1,23 @@
-👋 Hi, I'm Brijesh.
+👋 About Me
+Hi, I'm Brijesh — a seasoned IT professional with deep expertise in Generative AI (GenAI), Large Language Models (LLMs), cloud-native services, Big Data technologies, and modern programming frameworks. Over the years, I’ve worked extensively with Spark, Kafka, Java, and Python, while also leading initiatives in product management and delivery management.
 
-👀 I'm interested in building GenAI and LLM-based agent applications and services using Python and Docker.
+🚀 What I’m Building
+I’m passionate about creating GenAI and LLM-powered agent applications and services, leveraging Python, Docker, and cloud-native ecosystems. My current focus is on AI-driven application development, where I’m expanding my skills to design intelligent, scalable, and production-ready solutions.
 
-🌱 I have experience learning and working with Big Data and Cloud tools and technologies, and I'm currently expanding my skills in AI-driven application development.
+💡 Experience & Interests
+Strong background in Big Data and Cloud tools
 
-💞️ I'm open to collaborating on open-source projects, especially those based on Python or Java.
+Hands-on expertise in Java/Python development
 
-📫 How to reach me: brij_joe@yahoo.com
+Building AI-driven applications with modern frameworks
 
+Exploring open-source collaboration, especially in Python and Java projects
+
+🤝 Collaboration
+I’m open to working on open-source projects, particularly those involving AI, cloud-native services, or distributed systems. If you’re building something exciting in this space, I’d love to connect and contribute.
+
+📬 How to Reach Me
+You can reach me at: brij_joe@yahoo.com
 <!---
 brij-joe/brij-joe is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
